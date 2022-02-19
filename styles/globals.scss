@@ -1,0 +1,17 @@
+@import './variables.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&family=Patrick+Hand&family=Roboto&display=swap');
+
+html, body {
+    background: $background-color;
+    height:100%;
+    color: $color;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+
+    color: $color;
+    transition: all .2s ease;
+    &:hover{
+        color: $highlight-color;
+    }
+}

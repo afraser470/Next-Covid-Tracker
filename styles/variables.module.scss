@@ -1,0 +1,12 @@
+$color: rgb(255, 255, 255);
+$highlight-color:rgb(255, 206, 70);
+$background-color: rgb(66, 75, 83);
+$transparent:#00000000;
+
+
+:export{
+    color:$color;
+    highlight-color:$highlight-color;
+    background-color: $background-color;
+    transparent:$transparent;
+}
