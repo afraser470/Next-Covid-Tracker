@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import Layout from "../../components/layout";
+import Layout,{siteTitle} from "../../components/layout";
 
 import Styles from '../../styles/stats.module.scss';
 import Head from "next/head";

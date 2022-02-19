@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 
 import { compare,removeNoData } from '../lib/function';
-import Layout from '../components/layout';
+import Layout, {siteTitle} from '../components/layout';
 import Head from 'next/head';
 
 export async function getStaticProps() {
