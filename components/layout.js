@@ -2,7 +2,7 @@
 import styles from '../styles/layout.module.scss';
 
 
-export const siteTitle = 'Random News App'
+export const siteTitle = 'Covid Data Tracker';
 
 export default function Layout({ children, home }) {
     return (
