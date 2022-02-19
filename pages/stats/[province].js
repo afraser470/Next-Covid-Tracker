@@ -3,6 +3,7 @@ import Link from "next/link";
 import Layout from "../../components/layout";
 
 import Styles from '../../styles/stats.module.scss';
+import Head from "next/head";
 
 export async function getServerSideProps({ params }) {
     const province = await params.province;
