@@ -63,6 +63,11 @@ export default function Stats({covidData}){
 
     return (
         <Layout>
+            <Head>
+                <title>
+                {siteTitle}
+                </title>
+            </Head>
             <div>
                 <h2>{province}</h2>
             </div>

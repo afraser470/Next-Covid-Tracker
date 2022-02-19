@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 
 import { compare,removeNoData } from '../lib/function';
 import Layout from '../components/layout';
+import Head from 'next/head';
 
 export async function getStaticProps() {
   const res = await fetch("https://api.covid19tracker.ca/provinces");
@@ -26,6 +27,11 @@ export default function Home({provinces}) {
 
   return (
     <Layout>
+      <Head>
+        <title>
+          {siteTitle}
+        </title>
+      </Head>
       <div className={styles.wrapper}>
         <p>Please select a province</p>
         <select value={province} onChange={handleChange}>
